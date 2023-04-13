@@ -45,7 +45,7 @@ ul li a:hover{
     position: absolute;
     top: 40%;
     left: 25%;
-    transform: translate(-50%;-50%);
+    transform: translate(-50%-50%);
 }
 .title h1{
     font-family: sans-serif;
@@ -71,3 +71,41 @@ transform: translate(-50%-50%);
     background-color: #fff;
     color: black;
 }
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    height: 400px;
+    background-color: aliceblue;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 3%;
+}
+.image{
+    width: 150px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+.card h2{
+    margin-bottom: 1rem;
+}
+.service-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.intro-title2 {
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
