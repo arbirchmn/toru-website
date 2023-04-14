@@ -72,14 +72,19 @@ transform: translate(-50%-50%);
     color: black;
 }
 .card-container{
-    display: flex;
+    display: grid;
     justify-content: center;
+    grid-template-columns: repeat(12,1FR);
+    position: relative;
+    margin: 5px 150px;
+    margin-left: 200px;  
 }
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
     justify-content: center;
     width: 200px;
     height: 400px;
@@ -87,6 +92,8 @@ transform: translate(-50%-50%);
     margin: 1rem;
     padding: 1rem;
     border-radius: 3%;
+    grid-column: span 4;
+    position: relative;
 }
 .image{
     width: 150px;
@@ -95,6 +102,7 @@ transform: translate(-50%-50%);
 }
 .card h2{
     margin-bottom: 1rem;
+    text-align: center;
 }
 .service-text {
     display: flex;
@@ -109,3 +117,116 @@ transform: translate(-50%-50%);
     margin-bottom: 2rem;
     font-size: 3rem;
   }
+.bg-body{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://cdn-image.hipwee.com/wp-content/uploads/2017/09/hipwee-sushi-groope-dok-1-640x449.jpg);
+
+}
+.container {
+    min-width: 100%;
+    margin: auto;
+    position: relative;
+    background-color: #f7f6f2;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+}
+
+.content {
+    padding: 10px;
+    padding-bottom: -5px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-image: linear-gradient(#22577a, #38a3a5);
+    padding: 70px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+.footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #020202;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+.image-footer{
+    width: 50px;
+
+}
