@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images2.alphacoders.com/862/862730.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://cdn-image.hipwee.com/wp-content/uploads/2017/09/hipwee-sushi-groope-dok-1-640x449.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -84,6 +84,7 @@ transform: translate(-50%-50%);
     flex-direction: column;
     align-items: center;
     text-align: justify;
+    text-justify: inter-word;
     justify-content: center;
     width: 200px;
     height: 400px;
@@ -183,6 +184,7 @@ ul {
     position: absolute;
     left: 0;
     bottom: -10;
+    background-color: #e91e63;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -251,6 +253,7 @@ ul {
   
   .introduction-wrapper-reverse {
     margin-left: 7rem;
+    
   }
   
   .img-button-wrapper {
@@ -264,7 +267,10 @@ ul {
     margin-top: 1.5rem;
     font-size: 1rem;
     line-height: 1.6rem;
+    color: #f7f6f2;
+    text-align: justify;
   }
-  .image-card{
-
-  }
+.intro-container{
+    margin-top: 200px;
+}
+  
